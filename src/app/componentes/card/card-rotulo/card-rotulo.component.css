@@ -1,0 +1,18 @@
+.conteiner__rotulo{
+	position: absolute;
+	bottom: 90px;
+	right: 0;
+
+	& .rotulo__conteudo{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: rgba(0, 0, 0, 0.856);
+		color: white;
+		font-size: 12px;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-weight: bold;
+		height: 40px;
+		padding: 0px 50px;
+	}
+}
