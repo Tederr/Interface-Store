@@ -1,16 +1,21 @@
 <div class="container__jogo_conteudo">
 
 	<div class="jogo__nome">
-		<h1>NOME DO JOGO</h1>
+		<h1>{{nomeDoJogo}}</h1>
 	</div>
 
 	<div class="jogo__capa">
-		<img src="assets/wukong.png" alt="" width="600px">
+		<img src="{{capaDoJogo}}" alt="" width="700px">
+	</div>
+
+	<div class="jogo__desc">
+		<p>{{descricaoDoJogo}}</p>
 	</div>
 
 	<div class="jogo__comprar">
-		<button>COMPRAR</button>
-		<button>ADICIONAR AO CARRINHO</button>
+		<p>PREÇO : {{precoDoJogo}}</p>
+		<button (click)="comprandoJogo()" >COMPRAR</button>
+		<button (click)="adicionandoAoCarrinho()" >ADICIONAR AO CARRINHO</button>
 	</div>
 
 </div>

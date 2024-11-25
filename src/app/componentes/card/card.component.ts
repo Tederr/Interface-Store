@@ -11,4 +11,5 @@ export class CardComponent {
 	@Input() rotuloDoJogo:string = "";
 	@Input() tipoDeJogo: string = "Digital PS5";
 	@Input() precoDoJogo: string = "R$ 200,00";
+	@Input() id: string = "0";
 }

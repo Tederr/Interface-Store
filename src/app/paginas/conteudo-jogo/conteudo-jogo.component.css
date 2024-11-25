@@ -1,0 +1,52 @@
+.container__jogo_conteudo {
+	padding-top: 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	& .jogo__nome {
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		color: white;
+	}
+
+	& .jogo__capa {
+		margin-top: 20px;
+		border: 4px solid darkslateblue;
+		border-radius: 3px;
+		height: 300px;
+		overflow: hidden;
+	}
+
+	& .jogo__desc {
+		margin-top: 20px;
+		margin-left: 390px;
+		margin-right: 390px;
+		text-align: left;
+		font-size: medium;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		color: white;
+	}
+
+	& .jogo__comprar {
+		margin-top: 50px;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		color: white;
+		margin-right: 410px;
+
+		& button {
+			background-color: blueviolet;
+			color: white;
+			border-radius: 5px;
+			border: 2px solid darkslateblue;
+			margin-top: 15px;
+			padding: 5px;
+			margin-right: 15px;
+			transition: transform 0.4s;
+		}
+
+		& button:hover {
+			transform: scale(1.1);
+		}
+	}
+}
